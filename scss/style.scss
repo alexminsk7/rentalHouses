@@ -1,0 +1,19 @@
+html {
+	box-sizing: border-box;
+	font-size: 10px;
+}
+*, *::after, *::before {
+	box-sizing: inherit;
+}
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	line-height: 24px;
+	color: #000;
+	// font-family: 'PT Serif', serif;
+}
+
+// MODULES
+@import "_header.scss";
+@import "_slider.scss";
+@import "_popular.scss"

@@ -1,0 +1,46 @@
+.header {
+	text-align: center;
+	
+	.header__logo {
+		padding: 8.8rem 0 6rem;
+	}
+
+	.menu {
+		border-top: 2px solid #c4c4c4;
+
+		&__list {
+			display: flex;
+			justify-content: center;
+
+			&-item {
+				width: 23rem;
+
+				&:first-child {
+					border-left: 1px solid #c4c4c4;
+				}
+
+				&:last-child {
+					border-right: 1px solid #c4c4c4;
+				}
+
+				.menu__list-link {
+					font-size: 2.4rem;
+					line-height: 2.8rem;
+					color: #888;
+					text-decoration: none;
+					display: block;
+					padding: 3.4rem 1rem 3.8rem;
+					border-left: 1px solid #c4c4c4;
+					border-right: 1px solid #c4c4c4;
+					transition: all .3s;
+					
+					&:hover,
+					&--active {
+						color: #fff;
+						background: #000;
+					}
+				}
+			}
+		}
+	}
+}
